@@ -1,0 +1,48 @@
+body, html{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+
+}
+
+
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: 0;
+}
+
+#header-id{
+    background: blue;
+    width: 200px;
+    height: 200px;
+
+}
+
+/* #header-id p{ 
+    color: red;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}*/
+.text{
+    color: yellow;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    margin: 15px 0px 15px 0px;
+}
+
+#main-id{
+    width: 200px;
+    height: 200px;
+    background: brown;
+    margin-top: 10px;
+}
+#footer-id{
+    width: 200px;
+    height: 200px;
+    background: pink;
+    margin-top: 20px;
+}
