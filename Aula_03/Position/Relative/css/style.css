@@ -1,0 +1,37 @@
+
+/* Aqui temos um exemplo de position absolute*/
+/*
+div{
+    border: 2px solid #ccc;
+    margin-top: 40px;
+    padding: 20px 20px 40px 20px;
+}
+ para o filho respeitar o pai(div) basta atribuir relative no pai
+span{
+    background: #e7e7e7;
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    right: 0;
+
+} */
+
+/*Aqui temos um exemplo de position relative*/
+
+div{
+    border: 2px solid #ccc;
+    margin-top: 40px;
+    padding: 20px 20px 40px 20px;
+}
+span{
+    background: #e7e7e7;
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 0;
+    position: relative;
+    top: -25px;
+    right:-700px;
+
+}

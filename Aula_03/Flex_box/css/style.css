@@ -1,0 +1,19 @@
+body{
+    background-color: purple;
+
+}
+
+.container{
+    background: black;
+    width: 500px;
+    height: 200px;
+    display: flex;
+}
+
+.box1, .box2 , .box3, .box4 {
+    background: white;
+    border-radius: 3px;
+    width: 60px;
+    height: 60px;
+
+}

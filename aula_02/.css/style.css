@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: darkblue;
+}
+
+.firstcontainer div{
+    display: inline-block;
+}
+.secondcontainer div{
+    display: inline-block
+    
+}
+
+
+.box1 , .box2, .box3, .box4, .box5{
+    width: 250px;
+    height: 250px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+}
+
+.box1, .box2, .box3{
+    margin-top: 0px;
+}
+
+.box1{
+    background: orange;
+}
+.box2{
+    background: magenta;
+}
+.box3{
+    background: aqua;
+}
+
+.box4{
+   background: green;
+}
+.box5{
+    background: white;
+}
+
+
+
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 32%;
+    color: violet;
+
+}
+
+.box5 .text {
+    color: red;
+}
