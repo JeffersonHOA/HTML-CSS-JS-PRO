@@ -1,0 +1,173 @@
+
+body{
+    background: lightblue;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container, .container2, .container3, .container4, .container5, .container6, .container7{
+    margin: 20px;
+}
+.container{
+    width: 500px;
+    height: 120px;
+    background: purple;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container2{
+    width: 400px;
+    height: 200px;
+    background: purple;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container3{
+    width: 180px;
+    height: 350px;
+    background: purple;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.container4{
+    width: 180px;
+    height: 350px;
+    background: purple;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container5{
+    width: 320px;
+    height: 250px;
+    background: purple;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container6{
+    width: 500px;
+    height: 170px;
+    background: purple;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+.container7{
+    width: 320px;
+    height: 250px;
+    background: purple;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+
+.container div{
+    background: white;
+    border-radius: 3px;
+    width: 60px;
+    height: 100px;
+}
+
+.container2 div{
+    background: white;
+    border-radius: 3px;
+    width: 60px;
+    height: 60px;
+
+}
+.container3 div{
+    background: white;
+    border-radius: 3px;
+    width: 60px;
+    height: 60px;
+}
+.container4 div{
+    background: white;
+    border-radius: 3px;
+    width: 60px;
+    height: 60px;
+}
+.container5 div{
+    background: white;
+    border-radius: 3px;
+    width: 110px;
+    height: 110px;
+}
+.container6 div{
+    background: white;
+    border-radius: 3px;
+    width: 60px;
+    height: 60px;
+}
+
+.container7 div{
+    background: white;
+    border-radius: 3px;
+    width: 60px;
+    height: 60px;
+}
+
+.container7 .box1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container7 .box2{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.container7 .box3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.container7 .box4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.container6 .box2{
+    height: 110px;
+}
+
+
+p{
+    text-align: center;
+    margin-top: 65%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container2 p, .container3 p , .container4 p, .container5 p, .container6 p, .container7 p{
+    margin-top: 38%;
+}
+
+
