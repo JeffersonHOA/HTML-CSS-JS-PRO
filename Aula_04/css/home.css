@@ -1,0 +1,174 @@
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-top: 120px;
+    flex-wrap: wrap;
+}
+.planone{
+    color: #001F3A;
+    margin: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #FFB92F;
+    width: 350px;
+    height: 610px;
+    border-radius: 25px;
+    font-family: 'montserrat';
+}
+
+.planone span{
+    font-size: 25px;
+}
+
+.planone h1{
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.planone h2{
+    font-size: 46px;
+    line-height: 26px;
+    color: #001F3A;
+    margin-bottom: 0px;
+}
+
+.planone h3{
+    position: relative;
+    top: -45px;
+    font-size: 21px;
+    line-height: 26px;
+    color: #0f3c64;
+    margin-top: 0px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: space-around;
+}
+
+.description .description-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.description .description-icons img{
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+.description .description-icons p{
+   font-weight: 600;
+}
+
+.buttonplanone{
+    display: flex;
+    color: white;
+    background: #0f3c64;
+    border-radius: 30px;
+    width: 304px;
+    height: 61px;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    font-family: 'montserrat';
+    font-size: 30px;
+    font-weight: 800;
+}
+.plantwo{
+    position: relative;
+    color: #001F3A;
+    margin: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #FFB92F;
+    width: 350px;
+    height: 700px;
+    border-radius: 25px;
+    font-family: 'montserrat';
+}
+.planthree{
+    color: #001F3A;
+    margin: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #FFB92F;
+    width: 350px;
+    height: 610px;
+    border-radius: 25px;
+    font-family: 'montserrat';
+}
+
+.iconmedal{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    right: 18px;
+    top: 0;
+
+
+
+}
+
+.plantwo span{
+    font-size: 25px;
+}
+
+.plantwo h1{
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.plantwo h2{
+    font-size: 46px;
+    line-height: 26px;
+    color: #001F3A;
+    margin-bottom: 0px;
+}
+
+.plantwo h3{
+    position: relative;
+    top: -65px;
+    font-size: 21px;
+    line-height: 26px;
+    color: #0f3c64;
+    margin-top: 0px;
+}
+
+.planthree span{
+    font-size: 25px;
+}
+
+.planthree h1{
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.planthree h2{
+    font-size: 46px;
+    line-height: 26px;
+    color: #001F3A;
+    margin-bottom: 0px;
+}
+
+.planthree h3{
+    position: relative;
+    top: -45px;
+    font-size: 21px;
+    line-height: 26px;
+    color: #0f3c64;
+    margin-top: 0px;
+}
