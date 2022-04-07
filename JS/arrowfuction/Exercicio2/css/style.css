@@ -1,0 +1,43 @@
+body{
+    background: darkgrey;
+}
+
+main form{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+width: 700px;
+height: 25px;
+background-color: black;
+color: #fff;
+}
+
+form button{
+    width: 120px;
+}
+
+
+.listItens{
+width: 100%;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.itemList{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+main h1{
+    text-align: center;
+}

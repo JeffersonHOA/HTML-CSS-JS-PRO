@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    background: #222020;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h2{
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+    color: #d83e3e;
+}
+
+input{
+    margin: 15px;
+    width: 450px;
+    height: 40px;
+    border-radius: 35px;
+    text-align: center;
+    font-size: 22px;
+}
+
+button{
+    width: 120px;
+    height: 50px;
+    border-radius: 40px;
+    background: #070707;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+header{
+
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: #444444;
+
+}
+
+header h1{
+    position: absolute;
+    right: 450px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+
+header img{
+    width: 280px;
+    margin-left: 30px;
+}
+
+.listmovies{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 4px;
+
+}
+
+.movieList{
+    width: 360px;
+    height: auto;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #72ecec;
+    margin: 15px;
+}
+
+
+
+.movieList p{
+    margin: 10px 40px 0px 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    color: #000000;
+}
+.listmovies  .titlemovie{
+    margin: 10px 40px 0px 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    color: #200e74;
+}
+
+
+.movieList img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.listmovies .movielist .littlecontainer .titlemovie p{
+    color: #d83e3e;
+}
+

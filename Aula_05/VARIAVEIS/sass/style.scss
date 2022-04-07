@@ -1,0 +1,35 @@
+$cor-primaria: #ffb92f;
+$cor-fundo: #fff;
+$font-primary: monospace;
+$textbutton: #2c1a03
+;
+
+
+
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background: $cor-fundo;
+}
+
+main{
+    max-width: 500px;
+}
+
+h1{
+    color: $cor-primaria;
+    font-family: $font-primary;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background: $cor-primaria;
+    padding: 10px;
+    border-radius: 8px;
+    color: $textbutton;
+    font-family: $font-primary;
+}
